@@ -58,5 +58,6 @@
             ]
         }
     },
-    "description": "<h1 align=\"center\"> Ant Design Icons for Vue </h1>"
+    "description": "<h1 align=\"center\"> Ant Design Icons for Vue </h1>",
+    "gitHead": "48fbcd18df435891c949be6174def3486e84228d"
 }

@@ -9,6 +9,9 @@
   "contributors": [
     "HeskeyBaozi <hezhiyu233@foxmail.com>"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib",
     "svg",
@@ -109,5 +112,5 @@
       "<rootDir>/.cache/"
     ]
   },
-  "gitHead": "225d4d2189720ee3b7e4a4d7a6d80e076fa15cbc"
+  "gitHead": "48fbcd18df435891c949be6174def3486e84228d"
 }
