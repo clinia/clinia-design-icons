@@ -1,5 +1,5 @@
-import * as icons from '@ant-design/icons';
-import { IconDefinition } from '@ant-design/icons/lib/types';
+import * as icons from '@clinia-design/icons';
+import { IconDefinition } from '@clinia-design/icons/lib/types';
 
 const allIcons: { [key: string]: IconDefinition } = icons;
 

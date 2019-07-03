@@ -1,5 +1,5 @@
-import * as icons from '@ant-design/icons/lib/dist';
-import { IconDefinition } from '@ant-design/icons/lib/types';
+import * as icons from '@clinia-design/icons/lib/dist';
+import { IconDefinition } from '@clinia-design/icons/lib/types';
 import * as React from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';

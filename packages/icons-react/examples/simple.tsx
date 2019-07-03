@@ -1,4 +1,4 @@
-import { AntDesignOutline, DashboardOutline, TwitterOutline } from '@ant-design/icons';
+import { AntDesignOutline, DashboardOutline, TwitterOutline } from '@clinia-design/icons';
 import * as React from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';

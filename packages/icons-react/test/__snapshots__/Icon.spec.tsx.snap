@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`React AntdIcon Component should create SVG element. 1`] = `
+exports[`React CliniadIcon Component should create SVG element. 1`] = `
 <svg
   aria-hidden="true"
   className="my-icon"

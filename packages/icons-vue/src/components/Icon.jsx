@@ -13,7 +13,7 @@ const twoToneColorPalette = {
 }
 
 const Icon = {
-  name: 'AntdIcon',
+  name: 'CliniadIcon',
   props: ['type', 'primaryColor', 'secondaryColor'],
   displayName: 'IconVue',
   definitions: new MiniMap(),

@@ -1,10 +1,10 @@
-import { AbstractNode, IconDefinition } from '@ant-design/icons/lib/types';
 import { generate as generateColor } from '@ant-design/colors';
+import { AbstractNode, IconDefinition } from '@clinia-design/icons/lib/types';
 import * as React from 'react';
 
 export function log(message: string) {
   if (!(process && process.env && process.env.NODE_ENV === 'production')) {
-    console.error(`[@ant-design/icons-react]: ${message}.`);
+    console.error(`[@clinia-design/icons-react]: ${message}.`);
   }
 }
 

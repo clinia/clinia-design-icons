@@ -1,4 +1,4 @@
-import { AntDesignOutline, TwitterOutline } from '@ant-design/icons';
+import { AntDesignOutline, TwitterOutline } from '@clinia-design/icons';
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import Icon, { IconProps } from '../src/components/Icon';
@@ -10,7 +10,7 @@ function mount(props: IconProps) {
   return component.toJSON();
 }
 
-describe('React AntdIcon Component', () => {
+describe('React CliniadIcon Component', () => {
   it('should create SVG element.', () => {
     const icon = mount({
       type: 'ant-design-o',

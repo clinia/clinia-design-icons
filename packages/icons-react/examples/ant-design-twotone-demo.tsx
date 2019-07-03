@@ -2,7 +2,7 @@ import {
   CheckCircleTwoTone,
   HeartTwoTone,
   SmileTwoTone
-} from '@ant-design/icons';
+} from '@clinia-design/icons';
 import * as React from 'react';
 import { render } from 'react-dom';
 import AntdIcon from '../src';

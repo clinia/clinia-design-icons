@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { AntDesignOutline, TwitterOutline } from '@ant-design/icons';
+import { AntDesignOutline, TwitterOutline } from '@clinia-design/icons';
 import { mount } from '@vue/test-utils'
 import Icon from '../src/components/Icon';
 
@@ -10,7 +10,7 @@ Icon.add(AntDesignOutline, TwitterOutline);
 //   return component.toJSON();
 // }
 
-describe('Vue AntdIcon Component', () => {
+describe('Vue CliniadIcon Component', () => {
   it('should create SVG element.', () => {
     const iconProps = {
       props: {

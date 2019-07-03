@@ -2,7 +2,7 @@ import { generate as generateColor } from '@ant-design/colors'
 
 export function log (message) {
   if (!(process && process.env && process.env.NODE_ENV === 'production')) {
-    console.error(`[@ant-design/icons-vue]: ${message}.`)
+    console.error(`[@clinia-design/icons-vue]: ${message}.`)
   }
 }
 

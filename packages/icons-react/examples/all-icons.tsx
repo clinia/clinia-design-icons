@@ -1,10 +1,10 @@
-import * as icons from '@ant-design/icons/lib/dist';
-import manifest from '@ant-design/icons/lib/manifest';
+import * as icons from '@clinia-design/icons/lib/dist';
+import manifest from '@clinia-design/icons/lib/manifest';
 import {
   IconDefinition,
   Manifest,
   ThemeType
-} from '@ant-design/icons/lib/types';
+} from '@clinia-design/icons/lib/types';
 import { action, computed, observable } from 'mobx';
 import { observer } from 'mobx-react';
 import * as React from 'react';

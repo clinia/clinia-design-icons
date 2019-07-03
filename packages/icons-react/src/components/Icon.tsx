@@ -1,4 +1,4 @@
-import { AbstractNode, IconDefinition } from '@ant-design/icons/lib/types';
+import { AbstractNode, IconDefinition } from '@clinia-design/icons/lib/types';
 import * as React from 'react';
 import {
   generate,
