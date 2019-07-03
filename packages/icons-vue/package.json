@@ -1,6 +1,6 @@
 {
-    "name": "@ant-design/icons-vue",
-    "version": "1.0.1",
+    "name": "@clinia-design/icons-vue",
+    "version": "1.0.0",
     "main": "./lib/index.js",
     "module": "./es/index.js",
     "sideEffects": false,
