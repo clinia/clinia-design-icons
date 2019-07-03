@@ -1,50 +1,44 @@
 <p align="center">
-<img
- width="450px" alt="logo" src="https://user-images.githubusercontent.com/15819224/45196822-c120ff00-b290-11e8-83ca-eb76378f5cc1.png" />
-</p>
-
-<p align="center">
-⭐ The abstract trees of the Ant Design SVG icons.
+⭐ The abstract trees of the Clinia Design SVG icons.
 </p>
 
 <div align="center">
 
-[![travis](https://img.shields.io/travis/ant-design/ant-design-icons/master.svg?style=flat&label=travis)](https://travis-ci.org/ant-design/ant-design-icons)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
 </div>
 
 ## Packages
 
-- [@ant-design/icons](./packages/icons) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons.svg?style=flat)](https://npmjs.org/package/@ant-design/icons) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons.svg?style=flat)](https://npmjs.org/package/@ant-design/icons)
+<!-- - [@ant-design/icons](./packages/icons) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons.svg?style=flat)](https://npmjs.org/package/@ant-design/icons) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons.svg?style=flat)](https://npmjs.org/package/@ant-design/icons)
 - [@ant-design/icons-react](./packages/icons-react) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons-react.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-react) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons-react.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-react)
 - [@ant-design/icons-react-native](./packages/icons-react-native) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons-react-native.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-react-native) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons-react-native.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-react-native)
 - [@ant-design/icons-angular](./packages/icons-angular) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons-angular.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-angular) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons-angular.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-angular)
-- [@ant-design/icons-vue](./packages/icons-vue) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons-vue.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-vue) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons-vue.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-vue)
+- [@ant-design/icons-vue](./packages/icons-vue) [![NPM version](https://img.shields.io/npm/v/@ant-design/icons-vue.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-vue) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/icons-vue.svg?style=flat)](https://npmjs.org/package/@ant-design/icons-vue) -->
 
 ## Install
 
 ```bash
-yarn add @ant-design/icons
-# or npm install @ant-design/icons --save
+yarn add @clinia-design/icons
+# or npm install @clinia-design/icons --save
 ```
 
 ## Use Library Adapter
 
-- React: See [@ant-design/icons-react](./packages/icons-react) to learn about detail usage.
+- React: See [@clinia-design/icons-react](./packages/icons-react) to learn about detail usage.
 
 ## Build Project
 
 ```bash
-npm run icons:generate # Generate @ant-design/icons files to packages/icons/src
-npm run icons:build # Build  @ant-design/icons library
+npm run icons:generate # Generate @clinia-design/icons files to packages/icons/src
+npm run icons:build # Build  @clinia-design/icons library
 ```
 
 ## Basic Usage
 
 ```ts
-import { AlertOutline } from "@ant-design/icons";
-// or import AlertOutline from '@ant-design/icons/lib/outline/AlertOutline';
+import { AlertOutline } from "@clinia-design/icons";
+// or import AlertOutline from '@clinia-design/icons/lib/outline/AlertOutline';
 
 console.log(AlertOutline);
 // Output:
@@ -91,8 +85,8 @@ interface IconDefinition {
 ## Render Helpers
 
 ```ts
-import { AccountBookFill } from "@ant-design/icons";
-import { renderIconDefinitionToSVGElement } from "@ant-design/icons/lib/helpers";
+import { AccountBookFill } from "@clinia-design/icons";
+import { renderIconDefinitionToSVGElement } from "@clinia-design/icons/lib/helpers";
 
 const svgHTMLString = renderIconDefinitionToSVGElement(AccountBookFill, {
   extraSVGAttrs: { width: "1em", height: "1em", fill: "currentColor" }
