@@ -1,6 +1,6 @@
 {
   "name": "@clinia-design/icons-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "sideEffects": false,
@@ -30,7 +30,7 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "@clinia-design/icons": "^1.2.0",
+    "@clinia-design/icons": "^1.2.1",
     "@types/jest": "^23.3.1",
     "@types/node": "^10.5.5",
     "@types/react": "^16.4.12",
